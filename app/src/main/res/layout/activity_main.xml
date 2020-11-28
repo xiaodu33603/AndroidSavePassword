@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QQ"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/qq_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/qq_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/ps4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PS4"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/ps4_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/ps4_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WIFI"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/wifi_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/wifi_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/email_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+
+            <TextView
+                android:id="@+id/dsteam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DSteam"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/dsteam_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/dsteam_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+
+            <TextView
+                android:id="@+id/zsteam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZSteam"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/zsteam_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/zsteam_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+
+            <TextView
+                android:id="@+id/dadyqq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DadyQQ"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/dadyqq_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/dadyqq_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/ubisoft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubisoft"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/ubisoft_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/ubisoft_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/bilibili"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bilibili"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/bilibili_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/bilibili_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/zpyemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZPYEmail"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/zpyemail_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/zpyemail_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/ljhemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LJHEmail"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/ljhemail_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/ljhemail_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/admin_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/admin_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/mysql"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MySQL"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/mysql_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/mysql_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/admintor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admintor"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/admintor_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/admintor_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/zpysteam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZPYSteam"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/zpysteam_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/zpysteam_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/zpyspass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZPYSPass"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/zpyspass_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/zpyspass_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+            <TextView
+                android:id="@+id/pan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PanBaidu"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/pan_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPassword"
+                android:text="Test"
+                app:passwordToggleEnabled="true" />
+
+            <Button
+                android:id="@+id/pan_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="copy" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
